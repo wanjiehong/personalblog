@@ -1,0 +1,13 @@
+{% extends "basing.html" %}
+{% block title %}Blog-index{% endblock %}
+
+{% block content %}
+{{ super() }}
+{% if current_user.is_authenticated %}
+                <li><a href="/">{{ current_user.username }}</a></li>
+                {% else %}
+                <li><a href="/">stranger!!!</a></li>
+                {% endif %}
+{% endblock %}
+
+

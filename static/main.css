@@ -1,0 +1,61 @@
+.fancy {
+  width: 700px;
+  margin: 20px auto;
+  padding: 50px;
+  border: solid green 10px;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+}
+p, pre, pre.prettyprint {
+    margin: 0 0 15px;
+    font-size: 14px;
+}
+
+.h1
+{
+text-align:center;
+}
+.ex {	
+    width:850px;
+    padding:10px;
+    border:1px solid gray;
+    background: #F5FFFA;
+    margin:10px auto;
+}
+h1, h2, h3, h4, h5, h6 {
+	font-style:italic;
+	font-family: "GB2312";
+}
+h4:hover {
+  color:red
+}
+p {
+	font-family: "STFangsong"
+}
+#delete {
+	position:absolute;
+	right:270px;
+}
+#edit {
+	position:absolute;
+	right:310px;
+}
+
+#edit_title,#edit_tag1,#edit_tag2,#edit_tag3 {
+	height:25px
+}
+#edit_content {
+	height:800px
+}
+footer {
+	text-align:center;
+
+}
+#content {
+	height:800px;
+}
+#flash {
+    text-align:center;
+    font:solid red;	
+}

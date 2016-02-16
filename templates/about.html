@@ -1,0 +1,23 @@
+{% extends "basing.html" %}
+
+{% block title %}睡罗汉's info{% endblock %}
+
+{% block content %}
+<head>
+<link rel="stylesheet" type="text/css" href='{{url_for('static', filename='main.css')}}'/>
+</head>
+<div class="ex">
+<p>Website's Information:This website is created by the Flask. And it's working for blog.</p>
+</div>
+<style type="text/css">
+	footer {
+		
+
+	}
+</style>
+<footer>
+  <small>Created by: Chen</small>
+  <small>and all rights are reserved.</small><br>
+  <small>Contact information: <a href="mailto:chenshiyangyangyan@163.com">chenshiyangyangyan@163.com</a>.</small>
+</footer>
+{% endblock %}
